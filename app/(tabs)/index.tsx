@@ -11,7 +11,7 @@ import {
   View,
 } from "react-native";
 
-const DEFAULT_DURATION = 25 * 60; // 25 dakika (saniye)
+const DEFAULT_DURATION = 0.2 * 60; // 25 dakika (saniye)
 const CATEGORIES = ["Ders Çalışma", "Kodlama", "Proje", "Kitap Okuma"] as const;
 const SESSIONS_KEY = "@focus_sessions_v1";
 
